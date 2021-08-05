@@ -24,7 +24,7 @@ class BuildConfig {
 
   const BuildConfig._staging()
       : this._(
-          baseUrl: 'https://newsapi.org/v2',
+          baseUrl: 'https://newsapi.org/v2/',
           socketUrl: '',
           connectTimeout: 20000,
           receiveTimeout: 20000,
@@ -34,7 +34,7 @@ class BuildConfig {
 
   const BuildConfig._release()
       : this._(
-          baseUrl: 'https://newsapi.org/v2',
+          baseUrl: 'https://newsapi.org/v2/',
           socketUrl: '',
           connectTimeout: 20000,
           receiveTimeout: 20000,
